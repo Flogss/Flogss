@@ -16,9 +16,9 @@
    - Rarely play some games (Minecraft, OSU!, Cities Skylines, Teardown, etc...)
 
 - ❤️ Favorite dev languages:
-   - C# (Back end)
-   - XAML (Front end)
-   - Cat (Animal)
+   - HTML
+   - NODEJS
+   - CSS
 
 - ⌨️ What dev languages I know:
    - C#, XAML, HTML, CSS, JavaScript, Python, PowerShell, VisualBasic (I forgot), C/C++ (with Arduino)
