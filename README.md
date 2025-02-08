@@ -38,11 +38,6 @@
    <img src="https://github-profile-trophy.vercel.app/?username=Flogss&theme=radical&no-frame=false&no-bg=false&margin-w=4"/>
 </div>
 
-### ℹ️ Status:
-<div align="center" dir="auto">
-   <img style="height: auto; width: 49%;" src="https://lanyard.cnrad.dev/api/1028607912320442410?idleMessage=Idle%20or%20AFK&bg=000000&borderRadius=5px&animated=true"/>
-   <img style="height: auto; width: 49%;" src="https://lanyard.cnrad.dev/api/605079676917907457?idleMessage=Idle%20or%20AFK%20(Old%20account)&bg=000000&borderRadius=5px&animated=true"/>
-</div>
 
 ### If you see this counter, I will increase it by one
 ![View](https://profile-counter.glitch.me/Flogss/count.svg)
