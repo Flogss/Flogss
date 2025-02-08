@@ -4,7 +4,7 @@
   </div>
 </h1>
 
-![STY Background V10 1 Github, made by me](https://github.com/Flogss/Flogss/assets/57889852/e5339d6b-7ac4-4443-8e7e-f33036a5c196)
+![STY Background V10 1 Github, made by STY1001](https://github.com/STY1001/STY1001/assets/57889852/e5339d6b-7ac4-4443-8e7e-f33036a5c196)
 
 ### 👋 Hi, I'm Flogss and I'm 16 years old, I'm a French student who stay on his PC the most of the time. I use Windows btw
 
