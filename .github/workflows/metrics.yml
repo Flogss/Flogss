@@ -1,0 +1,84 @@
+name: Metrics
+
+on:
+  # Régénère les stats toutes les 6 heures
+  schedule:
+    - cron: "0 */6 * * *"
+  # Permet de lancer manuellement depuis l'onglet Actions
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  # ── Carte principale : commits, repos, étoiles, lignes de code ──────────────
+  overview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKE }}
+          filename: metrics/overview.svg
+          user: Flogss
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Paris
+          config_theme: dark
+          # Compte aussi les contributions dans les repos privés
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_traffic: yes
+
+  # ── Calendrier annuel des commits ──────────────────────────────────────────
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKE }}
+          filename: metrics/calendar.svg
+          user: Flogss
+          base: ""
+          config_timezone: Europe/Paris
+          config_theme: dark
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  # ── Habitudes : commits par heure, par jour, langages les plus utilisés ────
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKE }}
+          filename: metrics/habits.svg
+          user: Flogss
+          base: ""
+          config_timezone: Europe/Paris
+          config_theme: dark
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+  # ── Répartition des langages (sur les commits réels, pas la taille repo) ───
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKE }}
+          filename: metrics/languages.svg
+          user: Flogss
+          base: ""
+          config_timezone: Europe/Paris
+          config_theme: dark
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
