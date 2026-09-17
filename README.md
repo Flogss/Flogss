@@ -1,43 +1,91 @@
-<h1 style="display: flex; justify-content: space-between;">
-  <div>
-     <span align="left">💻&nbsp;&nbsp;About FLOGSS.exe</span>
-  </div>
-</h1>
+<div align="center">
 
-![STY Background V10 1 Github, made by STY1001](https://github.com/STY1001/STY1001/assets/57889852/e5339d6b-7ac4-4443-8e7e-f33036a5c196)
+# `FLOGSS.exe`
 
-### 👋 Hi, I'm Flogss and I'm 17 years old, I'm a French student who stay on his PC the most of the time. I use Windows, MacOs and ofc Linux btw
+**French dev 🇫🇷 — cybersec / OSINT / CTF / pentest**
 
-- 🤔 What I'm do? :
-   - Full stack dev
-   - Hardware and Software exploration and customization
-   - DIY project
-   - Repair of electronic device
-   - Rarely play some games (Minecraft, OSU!, Cities Skylines, Teardown, etc...)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Student+%26+self-taught+developer;Offensive+security+%2F+OSINT+%2F+CTF;Automation%2C+bots+and+web+apps;Windows+%C2%B7+macOS+%C2%B7+Linux+btw" alt="typing" />
 
-- ❤️ Favorite dev languages:
-   - HTML
-   - NODEJS
-   - CSS
+<a href="https://github.com/Flogss?tab=repositories"><img src="https://img.shields.io/badge/repos-20-FF0000?style=for-the-badge&labelColor=000000&logo=github" alt="repos" /></a>
+<a href="https://github.com/Flogss"><img src="https://img.shields.io/github/followers/Flogss?style=for-the-badge&color=FF0000&labelColor=000000&logo=github" alt="followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=Flogss&style=for-the-badge&color=FF0000" alt="profile views" />
 
-- ⌨️ What dev languages I know:
-   - C#, XAML, HTML, CSS, JavaScript, Python, PowerShell, VisualBasic (I forgot), C/C++ (with Arduino)
-     
-- 🧠 Skills:
-   - Windows Server, Apache, Node.JS, Docker, WordPress, Nuxt.JS, Vue.JS, Nuxt.JS, Photoshop, Blender and more
-
-### ℹ️ My stats:
-![Flogss's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Flogss&bg_color=000000&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=true)
-<div align="center" dir="auto">
-   <img style="height: auto; width: 59%;" src="https://github-readme-stats.vercel.app/api?username=Flogss&hide=issues&count_private=true&show_icons=true&theme=dark&title_color=FF0000&text_color=FFFFFF&icon_color=FF0000&bg_color=35,000000,500000&reload"/>
-   <img style="height: auto; width: 40%;" src="https://github-readme-stats.vercel.app/api/top-langs?username=Flogss&show_icons=true&layout=compact&theme=dark&title_color=FF0000&text_color=FFFFFF&icon_color=FF0000&bg_color=35,500000,000000&reload"/>
 </div>
 
-### 🏆 Sucess:
-<div align="center" dir="auto">
-   <img src="https://github-profile-trophy.vercel.app/?username=Flogss&theme=radical&no-frame=false&no-bg=false&margin-w=4"/>
+---
+
+## 🎯 What I work on
+
+- **Offensive security** — CTF, pentest labs, OSINT investigation & recon tooling
+- **Automation** — Discord / Telegram bots, scrapers, checkers, CI pipelines
+- **Full-stack web** — Node.js APIs, Vue/Nuxt front-ends, self-hosted deployments
+- **Hardware & systems** — customization, electronics repair, Arduino / embedded DIY
+
+## 🧰 Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=FF0000)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=FF0000)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=FF0000)
+![C#](https://img.shields.io/badge/C%23-000000?style=flat-square&logo=csharp&logoColor=FF0000)
+![C++](https://img.shields.io/badge/C%2FC%2B%2B-000000?style=flat-square&logo=cplusplus&logoColor=FF0000)
+![PowerShell](https://img.shields.io/badge/PowerShell-000000?style=flat-square&logo=powershell&logoColor=FF0000)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=FF0000)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=FF0000)
+
+![Vue.js](https://img.shields.io/badge/Vue.js-000000?style=flat-square&logo=vuedotjs&logoColor=FF0000)
+![Nuxt](https://img.shields.io/badge/Nuxt-000000?style=flat-square&logo=nuxtdotjs&logoColor=FF0000)
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=FF0000)
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=FF0000)
+![Apache](https://img.shields.io/badge/Apache-000000?style=flat-square&logo=apache&logoColor=FF0000)
+![Kali](https://img.shields.io/badge/Kali_Linux-000000?style=flat-square&logo=kalilinux&logoColor=FF0000)
+![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=FF0000)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=FF0000)
+
 </div>
 
+---
 
-### If you see this counter, I will increase it by one
-![View](https://profile-counter.glitch.me/Flogss/count.svg)
+## 📊 Stats
+
+> Generated every 6 hours by [`lowlighter/metrics`](https://github.com/lowlighter/metrics) — **private repos included**.
+
+<div align="center">
+
+<!-- Commits, repos, stars, lines of code changed -->
+<img src="./metrics/overview.svg" alt="overview" width="49%" />
+<!-- Languages actually used in my commits -->
+<img src="./metrics/languages.svg" alt="languages" width="49%" />
+
+<!-- Full-year commit calendar -->
+<img src="./metrics/calendar.svg" alt="commit calendar" width="80%" />
+
+<!-- When do I commit: hours, days of the week, average commits per day -->
+<img src="./metrics/habits.svg" alt="coding habits" width="80%" />
+
+</div>
+
+### 🔥 Streak & activity
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Flogss&theme=dark&background=000000&border=FF0000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" alt="streak" width="60%" />
+
+![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Flogss&bg_color=000000&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🏆 Achievements
+
+<img src="https://github-profile-trophy.vercel.app/?username=Flogss&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+
+<br />
+
+<sub>⚠️ Everything published here is for educational and authorized security research only.</sub>
+
+</div>
