@@ -25,11 +25,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Paris
-          config_theme: dark
           # Compte aussi les contributions dans les repos privés
           repositories_affiliations: owner, collaborator, organization_member
-          plugin_lines: yes
-          plugin_lines_sections: base
           plugin_traffic: yes
 
   # ── Calendrier annuel des commits ──────────────────────────────────────────
@@ -43,27 +40,34 @@ jobs:
           user: Flogss
           base: ""
           config_timezone: Europe/Paris
-          config_theme: dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-  # ── Habitudes : commits par heure, par jour, langages les plus utilisés ────
-  habits:
+  # ── Rythme de commit : total, par heure, par jour de semaine ───────────────
+  # Le plugin `habits` de metrics est inutilisable : il lit l'API Events, qui
+  # n'expose plus `payload.commits` (il plante sur "Cannot destructure property
+  # 'author' of 'undefined'"). Ce script interroge GraphQL à la place.
+  rhythm:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          token: ${{ secrets.METRICS_TOKE }}
-          filename: metrics/habits.svg
-          user: Flogss
-          base: ""
-          config_timezone: Europe/Paris
-          config_theme: dark
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          python-version: "3.12"
+      - name: Generate commit rhythm card
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKE }}
+          GH_LOGIN: Flogss
+          TZ_OFFSET: "2"
+          OUT: metrics/rhythm.svg
+        run: python3 scripts/commit_rhythm.py
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/rhythm.svg
+          git diff --quiet --cached || git commit -m "Update metrics/rhythm.svg - [Skip GitHub Action]"
+          git push
 
   # ── Répartition des langages (sur les commits réels, pas la taille repo) ───
   languages:
@@ -76,7 +80,6 @@ jobs:
           user: Flogss
           base: ""
           config_timezone: Europe/Paris
-          config_theme: dark
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes-size, percentage

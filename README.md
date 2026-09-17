@@ -61,8 +61,8 @@
 <!-- Full-year commit calendar -->
 <img src="./metrics/calendar.svg" alt="commit calendar" width="80%" />
 
-<!-- When do I commit: hours, days of the week, average commits per day -->
-<img src="./metrics/habits.svg" alt="coding habits" width="80%" />
+<!-- Total commits + when I commit: hours of the day, days of the week -->
+<img src="./metrics/rhythm.svg" alt="commit rhythm" width="80%" />
 
 </div>
 
