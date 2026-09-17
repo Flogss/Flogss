@@ -122,6 +122,30 @@ def fetch_commit_dates(repo, author_id):
     return dates
 
 
+def streaks(days, today):
+    """Return (current, longest) run of consecutive days containing a commit.
+
+    A streak stays "current" while it reaches yesterday, so a day that has not
+    been committed to yet does not break it.
+    """
+    if not days:
+        return 0, 0
+    ordered = sorted(days)
+    longest = run = 1
+    for prev, day in zip(ordered, ordered[1:]):
+        run = run + 1 if (day - prev).days == 1 else 1
+        longest = max(longest, run)
+
+    current = 0
+    if (today - ordered[-1]).days <= 1:
+        current = 1
+        for prev, day in zip(reversed(ordered[:-1]), reversed(ordered[1:])):
+            if (day - prev).days != 1:
+                break
+            current += 1
+    return current, longest
+
+
 def esc(text):
     return (
         str(text)
@@ -157,16 +181,40 @@ def bars(counts, labels, x0, y0, width, height, highlight=None):
     return "\n".join(out)
 
 
-def render(total, year, hours, weekdays, streak_days, active_repos, peak_hour, peak_day):
+def render(
+    total,
+    year,
+    hours,
+    weekdays,
+    active_days,
+    active_repos,
+    peak_hour,
+    peak_day,
+    streak,
+    best_streak,
+):
     w, h = 840, 300
     hour_labels = [str(i) if i % 3 == 0 else None for i in range(24)]
     day_labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
     def stat(x, value, label):
         return (
-            f'<text x="{x}" y="86" fill="{ACCENT}" font-size="26" font-weight="700">{esc(value)}</text>'
-            f'<text x="{x}" y="104" fill="{DIM}" font-size="10.5" letter-spacing="0.6">{esc(label)}</text>'
+            f'<text x="{x}" y="86" fill="{ACCENT}" font-size="24" font-weight="700">{esc(value)}</text>'
+            f'<text x="{x}" y="104" fill="{DIM}" font-size="9.5" letter-spacing="0.4">{esc(label)}</text>'
         )
+
+    stats = [
+        (f"{total:,}".replace(",", " "), "COMMITS"),
+        (f"{year:,}".replace(",", " "), "LAST 365D"),
+        (active_days, "ACTIVE DAYS"),
+        (streak, "STREAK"),
+        (best_streak, "BEST STREAK"),
+        (active_repos, "REPOS"),
+        (f"{peak_hour:02d}h", "PEAK HOUR"),
+    ]
+    stat_row = "\n  ".join(
+        stat(28 + i * 114, value, label) for i, (value, label) in enumerate(stats)
+    )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
   <rect width="{w}" height="{h}" rx="8" fill="{BG}" stroke="{GRID}"/>
@@ -175,11 +223,7 @@ def render(total, year, hours, weekdays, streak_days, active_repos, peak_hour, p
   <text x="28" y="55" fill="{DIM}" font-size="10">{esc(LOGIN)} · default-branch history across every repo · private included</text>
   <line x1="28" y1="64" x2="{w - 28}" y2="64" stroke="{GRID}"/>
 
-  {stat(28, f"{total:,}".replace(",", " "), "TOTAL COMMITS")}
-  {stat(190, f"{year:,}".replace(",", " "), "LAST 365 DAYS")}
-  {stat(330, streak_days, "ACTIVE DAYS / YR")}
-  {stat(500, active_repos, "REPOS COMMITTED")}
-  {stat(660, f"{peak_hour:02d}h", "PEAK HOUR")}
+  {stat_row}
 
   <line x1="28" y1="124" x2="{w - 28}" y2="124" stroke="{GRID}"/>
 
@@ -223,15 +267,19 @@ def main():
     hour_counts = [hours.get(i, 0) for i in range(24)]
     day_counts = [weekdays.get(i, 0) for i in range(7)]
 
+    current, best = streaks({d.date() for d in parsed}, datetime.now(TZ).date())
+
     svg = render(
         total=len(parsed),
         year=len(recent),
         hours=hour_counts,
         weekdays=day_counts,
-        streak_days=len({d.date() for d in recent}),
+        active_days=len({d.date() for d in recent}),
         active_repos=committed_repos,
         peak_hour=hour_counts.index(max(hour_counts)),
         peak_day=day_counts.index(max(day_counts)),
+        streak=current,
+        best_streak=best,
     )
 
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)

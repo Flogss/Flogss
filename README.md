@@ -49,42 +49,27 @@
 
 ## 📊 Stats
 
-> Generated every 6 hours by [`lowlighter/metrics`](https://github.com/lowlighter/metrics) — **private repos included**.
+> Regenerated every 6 hours straight from the GitHub API — **private repos included**.
+> No third-party image service, so nothing here silently breaks.
 
 <div align="center">
 
-<!-- Commits, repos, stars, lines of code changed -->
+<!-- Total commits, streaks, and when I commit: hours of the day, weekdays -->
+<img src="./metrics/rhythm.svg" alt="commit rhythm" width="92%" />
+
+<!-- Profile overview: commits, repos, stars, followers -->
 <img src="./metrics/overview.svg" alt="overview" width="49%" />
 <!-- Languages actually used in my commits -->
 <img src="./metrics/languages.svg" alt="languages" width="49%" />
 
 <!-- Full-year commit calendar -->
-<img src="./metrics/calendar.svg" alt="commit calendar" width="80%" />
-
-<!-- Total commits + when I commit: hours of the day, days of the week -->
-<img src="./metrics/rhythm.svg" alt="commit rhythm" width="80%" />
-
-</div>
-
-### 🔥 Streak & activity
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Flogss&theme=dark&background=000000&border=FF0000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" alt="streak" width="60%" />
-
-![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Flogss&bg_color=000000&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=true)
+<img src="./metrics/calendar.svg" alt="commit calendar" width="92%" />
 
 </div>
 
 ---
 
 <div align="center">
-
-### 🏆 Achievements
-
-<img src="https://github-profile-trophy.vercel.app/?username=Flogss&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
-
-<br />
 
 <sub>⚠️ Everything published here is for educational and authorized security research only.</sub>
 
