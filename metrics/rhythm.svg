@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
+  <rect width="840" height="300" rx="8" fill="#000000" stroke="#21262d"/>
+
+  <text x="28" y="38" fill="#ffffff" font-size="15" font-weight="700">Commit rhythm</text>
+  <text x="28" y="55" fill="#8b949e" font-size="10">Flogss · default-branch history across every repo · private included</text>
+  <line x1="28" y1="64" x2="812" y2="64" stroke="#21262d"/>
+
+  <text x="28" y="86" fill="#ff0000" font-size="26" font-weight="700">153</text><text x="28" y="104" fill="#8b949e" font-size="10.5" letter-spacing="0.6">TOTAL COMMITS</text>
+  <text x="190" y="86" fill="#ff0000" font-size="26" font-weight="700">106</text><text x="190" y="104" fill="#8b949e" font-size="10.5" letter-spacing="0.6">LAST 365 DAYS</text>
+  <text x="330" y="86" fill="#ff0000" font-size="26" font-weight="700">21</text><text x="330" y="104" fill="#8b949e" font-size="10.5" letter-spacing="0.6">ACTIVE DAYS / YR</text>
+  <text x="500" y="86" fill="#ff0000" font-size="26" font-weight="700">12</text><text x="500" y="104" fill="#8b949e" font-size="10.5" letter-spacing="0.6">REPOS COMMITTED</text>
+  <text x="660" y="86" fill="#ff0000" font-size="26" font-weight="700">15h</text><text x="660" y="104" fill="#8b949e" font-size="10.5" letter-spacing="0.6">PEAK HOUR</text>
+
+  <line x1="28" y1="124" x2="812" y2="124" stroke="#21262d"/>
+
+  <text x="28" y="148" fill="#ffffff" font-size="11" font-weight="600">By hour of day</text>
+  <text x="28" y="163" fill="#8b949e" font-size="9">local time · peak 15h</text>
+  <rect x="31.7" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="51.3" y="236.6" width="12.1" height="17.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="70.9" y="236.6" width="12.1" height="17.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="90.5" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="110.1" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="129.6" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="149.2" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="168.8" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="188.4" y="251.5" width="12.1" height="2.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="208.0" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="227.6" y="249.0" width="12.1" height="5.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="247.1" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="266.7" y="251.5" width="12.1" height="2.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="286.3" y="236.6" width="12.1" height="17.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="305.9" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="325.5" y="172.0" width="12.1" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
+<rect x="345.1" y="184.4" width="12.1" height="69.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="364.6" y="234.1" width="12.1" height="19.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="384.2" y="231.6" width="12.1" height="22.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="403.8" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="423.4" y="226.7" width="12.1" height="27.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="443.0" y="244.1" width="12.1" height="9.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="462.6" y="246.5" width="12.1" height="7.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="482.1" y="249.0" width="12.1" height="5.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<text x="37.8" y="267" fill="#8b949e" font-size="9" text-anchor="middle">0</text>
+<text x="96.5" y="267" fill="#8b949e" font-size="9" text-anchor="middle">3</text>
+<text x="155.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">6</text>
+<text x="214.0" y="267" fill="#8b949e" font-size="9" text-anchor="middle">9</text>
+<text x="272.8" y="267" fill="#8b949e" font-size="9" text-anchor="middle">12</text>
+<text x="331.5" y="267" fill="#8b949e" font-size="9" text-anchor="middle">15</text>
+<text x="390.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">18</text>
+<text x="449.0" y="267" fill="#8b949e" font-size="9" text-anchor="middle">21</text>
+
+  <text x="556" y="148" fill="#ffffff" font-size="11" font-weight="600">By weekday</text>
+  <text x="556" y="163" fill="#8b949e" font-size="9">peak Sat</text>
+  <rect x="562.9" y="220.8" width="22.7" height="33.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="599.5" y="245.1" width="22.7" height="8.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="636.1" y="223.0" width="22.7" height="31.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="672.7" y="176.4" width="22.7" height="77.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="709.2" y="216.3" width="22.7" height="37.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="745.8" y="172.0" width="22.7" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
+<rect x="782.4" y="185.3" width="22.7" height="68.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<text x="574.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Mon</text>
+<text x="610.9" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Tue</text>
+<text x="647.4" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Wed</text>
+<text x="684.0" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Thu</text>
+<text x="720.6" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Fri</text>
+<text x="757.1" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Sat</text>
+<text x="793.7" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Sun</text>
+</svg>
