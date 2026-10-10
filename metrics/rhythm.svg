@@ -5,8 +5,8 @@
   <text x="28" y="55" fill="#8b949e" font-size="10">Flogss · default-branch history across every repo · private included</text>
   <line x1="28" y1="64" x2="812" y2="64" stroke="#21262d"/>
 
-  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">212</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
-  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">165</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
+  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">213</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
+  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">166</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
   <text x="256" y="86" fill="#ff0000" font-size="24" font-weight="700">37</text><text x="256" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">ACTIVE DAYS</text>
   <text x="370" y="86" fill="#ff0000" font-size="24" font-weight="700">4</text><text x="370" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">STREAK</text>
   <text x="484" y="86" fill="#ff0000" font-size="24" font-weight="700">8</text><text x="484" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">BEST STREAK</text>
@@ -17,30 +17,30 @@
 
   <text x="28" y="148" fill="#ffffff" font-size="11" font-weight="600">By hour of day</text>
   <text x="28" y="163" fill="#8b949e" font-size="9">local time · peak 15h</text>
-  <rect x="31.7" y="242.8" width="12.1" height="11.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="51.3" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="70.9" y="237.2" width="12.1" height="16.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="90.5" y="241.0" width="12.1" height="13.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+  <rect x="31.7" y="243.1" width="12.1" height="10.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="51.3" y="239.4" width="12.1" height="14.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="70.9" y="237.6" width="12.1" height="16.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="90.5" y="241.2" width="12.1" height="12.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="110.1" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="129.6" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="149.2" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="168.8" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="188.4" y="235.4" width="12.1" height="18.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="208.0" y="252.1" width="12.1" height="1.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="227.6" y="248.4" width="12.1" height="5.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="247.1" y="241.0" width="12.1" height="13.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="266.7" y="242.8" width="12.1" height="11.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="286.3" y="226.0" width="12.1" height="28.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="305.9" y="233.5" width="12.1" height="20.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="188.4" y="235.8" width="12.1" height="18.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="208.0" y="252.2" width="12.1" height="1.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="227.6" y="248.5" width="12.1" height="5.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="247.1" y="241.2" width="12.1" height="12.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="266.7" y="243.1" width="12.1" height="10.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="286.3" y="226.7" width="12.1" height="27.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="305.9" y="234.0" width="12.1" height="20.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="325.5" y="172.0" width="12.1" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
-<rect x="345.1" y="194.4" width="12.1" height="59.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="364.6" y="233.5" width="12.1" height="20.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="384.2" y="237.2" width="12.1" height="16.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="403.8" y="239.1" width="12.1" height="14.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="423.4" y="226.0" width="12.1" height="28.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="443.0" y="244.7" width="12.1" height="9.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="462.6" y="248.4" width="12.1" height="5.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="482.1" y="250.3" width="12.1" height="3.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="345.1" y="195.7" width="12.1" height="58.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="364.6" y="234.0" width="12.1" height="20.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="384.2" y="237.6" width="12.1" height="16.4" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="403.8" y="239.4" width="12.1" height="14.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="423.4" y="226.7" width="12.1" height="27.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="443.0" y="244.9" width="12.1" height="9.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="462.6" y="248.5" width="12.1" height="5.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="482.1" y="250.4" width="12.1" height="3.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <text x="37.8" y="267" fill="#8b949e" font-size="9" text-anchor="middle">0</text>
 <text x="96.5" y="267" fill="#8b949e" font-size="9" text-anchor="middle">3</text>
 <text x="155.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">6</text>
@@ -52,13 +52,13 @@
 
   <text x="556" y="148" fill="#ffffff" font-size="11" font-weight="600">By weekday</text>
   <text x="556" y="163" fill="#8b949e" font-size="9">peak Sat</text>
-  <rect x="562.9" y="216.0" width="22.7" height="38.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="599.5" y="244.9" width="22.7" height="9.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="636.1" y="219.1" width="22.7" height="34.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="672.7" y="191.7" width="22.7" height="62.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="709.2" y="216.0" width="22.7" height="38.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
+  <rect x="562.9" y="216.7" width="22.7" height="37.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="599.5" y="245.1" width="22.7" height="8.9" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="636.1" y="219.7" width="22.7" height="34.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="672.7" y="192.9" width="22.7" height="61.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="709.2" y="216.7" width="22.7" height="37.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="745.8" y="172.0" width="22.7" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
-<rect x="782.4" y="196.3" width="22.7" height="57.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="782.4" y="197.3" width="22.7" height="56.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <text x="574.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Mon</text>
 <text x="610.9" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Tue</text>
 <text x="647.4" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Wed</text>
