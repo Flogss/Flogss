@@ -5,8 +5,8 @@
   <text x="28" y="55" fill="#8b949e" font-size="10">Flogss · default-branch history across every repo · private included</text>
   <line x1="28" y1="64" x2="812" y2="64" stroke="#21262d"/>
 
-  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">217</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
-  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">170</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
+  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">219</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
+  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">172</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
   <text x="256" y="86" fill="#ff0000" font-size="24" font-weight="700">38</text><text x="256" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">ACTIVE DAYS</text>
   <text x="370" y="86" fill="#ff0000" font-size="24" font-weight="700">5</text><text x="370" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">STREAK</text>
   <text x="484" y="86" fill="#ff0000" font-size="24" font-weight="700">8</text><text x="484" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">BEST STREAK</text>
@@ -39,7 +39,7 @@
 <rect x="403.8" y="239.4" width="12.1" height="14.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="423.4" y="226.7" width="12.1" height="27.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="443.0" y="244.9" width="12.1" height="9.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="462.6" y="248.5" width="12.1" height="5.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="462.6" y="244.9" width="12.1" height="9.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="482.1" y="250.4" width="12.1" height="3.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <text x="37.8" y="267" fill="#8b949e" font-size="9" text-anchor="middle">0</text>
 <text x="96.5" y="267" fill="#8b949e" font-size="9" text-anchor="middle">3</text>
@@ -58,7 +58,7 @@
 <rect x="672.7" y="192.9" width="22.7" height="61.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="709.2" y="216.7" width="22.7" height="37.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="745.8" y="172.0" width="22.7" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
-<rect x="782.4" y="191.4" width="22.7" height="62.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="782.4" y="188.4" width="22.7" height="65.6" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <text x="574.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Mon</text>
 <text x="610.9" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Tue</text>
 <text x="647.4" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Wed</text>
