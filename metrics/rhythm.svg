@@ -5,9 +5,9 @@
   <text x="28" y="55" fill="#8b949e" font-size="10">Flogss · default-branch history across every repo · private included</text>
   <line x1="28" y1="64" x2="812" y2="64" stroke="#21262d"/>
 
-  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">251</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
-  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">204</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
-  <text x="256" y="86" fill="#ff0000" font-size="24" font-weight="700">45</text><text x="256" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">ACTIVE DAYS</text>
+  <text x="28" y="86" fill="#ff0000" font-size="24" font-weight="700">253</text><text x="28" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">COMMITS</text>
+  <text x="142" y="86" fill="#ff0000" font-size="24" font-weight="700">206</text><text x="142" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">LAST 365D</text>
+  <text x="256" y="86" fill="#ff0000" font-size="24" font-weight="700">46</text><text x="256" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">ACTIVE DAYS</text>
   <text x="370" y="86" fill="#ff0000" font-size="24" font-weight="700">1</text><text x="370" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">STREAK</text>
   <text x="484" y="86" fill="#ff0000" font-size="24" font-weight="700">8</text><text x="484" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">BEST STREAK</text>
   <text x="598" y="86" fill="#ff0000" font-size="24" font-weight="700">15</text><text x="598" y="104" fill="#8b949e" font-size="9.5" letter-spacing="0.4">REPOS</text>
@@ -19,7 +19,7 @@
   <text x="28" y="163" fill="#8b949e" font-size="9">local time · peak 15h</text>
   <rect x="31.7" y="243.5" width="12.1" height="10.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="51.3" y="240.0" width="12.1" height="14.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="70.9" y="238.3" width="12.1" height="15.7" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="70.9" y="234.8" width="12.1" height="19.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="90.5" y="240.0" width="12.1" height="14.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="110.1" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="129.6" y="254.0" width="12.1" height="1.0" rx="1.5" fill="#ff0000" opacity="0.55"/>
@@ -56,7 +56,7 @@
 <rect x="599.5" y="227.2" width="22.7" height="26.8" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="636.1" y="216.7" width="22.7" height="37.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="672.7" y="176.5" width="22.7" height="77.5" rx="1.5" fill="#ff0000" opacity="0.55"/>
-<rect x="709.2" y="213.7" width="22.7" height="40.3" rx="1.5" fill="#ff0000" opacity="0.55"/>
+<rect x="709.2" y="210.8" width="22.7" height="43.2" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <rect x="745.8" y="172.0" width="22.7" height="82.0" rx="1.5" fill="#ff0000" opacity="1"/>
 <rect x="782.4" y="183.9" width="22.7" height="70.1" rx="1.5" fill="#ff0000" opacity="0.55"/>
 <text x="574.3" y="267" fill="#8b949e" font-size="9" text-anchor="middle">Mon</text>
